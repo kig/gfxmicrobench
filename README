@@ -1,0 +1,20 @@
+Web Graphics Microbenchmarks
+----------------------------
+
+Proposed goals:
+ * Give web developers specific information on graphics performance
+ * Measure the graphics performance of the current client
+   * Use to scale graphics fidelity (screen size, amount of details)
+   * Use to pick the best-performing rendering path
+ * Give browser devs a set of measures to judge browser graphics performance
+ * No server component required
+
+Plan:
+ * Benchmark very small features (e.g. drawImage /w no transform and aligned 
+   to canvas grid, drawImage /w transform, clipped drawImage, etc.)
+ * Make a short version (~1-2s runtime) of the benchmark suite for figuring
+   out the performance of the current client. Run the bm at page load time, 
+   e.g. when displaying a "Loading..." splash.
+
+Timeline:
+ * Start in mid-May.
