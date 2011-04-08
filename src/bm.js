@@ -19,7 +19,7 @@ BM = {
       times.push(e);
       t = (new Date().getTime()) - startTime;
     }
-    return {count:i*(t/duration), times:times};
+    return {count:i*(duration/t), times:times};
   }
 
 };
