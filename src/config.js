@@ -1,0 +1,3 @@
+Config = {
+  assetDir : '../assets'
+};

@@ -1,7 +1,7 @@
 Web Graphics Microbenchmarks
 ----------------------------
 
-Proposed goals:
+Goals:
  * Give web developers specific information on graphics performance
  * Measure the graphics performance of the current client
    * Use to scale graphics fidelity (screen size, amount of details)
@@ -17,4 +17,5 @@ Plan:
    e.g. when displaying a "Loading..." splash.
 
 Timeline:
- * Start in mid-May.
+ * Now: Figuring out what to do.
+ * More time in mid-May.

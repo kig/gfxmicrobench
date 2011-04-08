@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+ <head>
+  <script src="config.js"></script>
+  <script src="bm.js"></script>
+  <script src="test_drawImage.js"></script>
+ </head>
+ <body>
+  <h1>Canvas 2D drawImage test</h1>
+  <h2>Drawing a 256x256 image 100 times</h2>
+  <section id="results"></section>
+  <script>
+    var resultDiv = document.getElementById('results');
+    DrawImageTest.oncomplete = function(r) {
+      var p = document.createElement('p');
+      p.textContent = r.name + ': ' + r.result.count + ' runs per second';
+      resultDiv.appendChild(p);
+    }
+    DrawImageTest.run();
+  </script>
+ </body>
+</html>
