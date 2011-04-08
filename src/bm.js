@@ -10,7 +10,7 @@ BM = {
 
   runForDuration : function(f, duration) {
     var startTime = new Date().getTime();
-    var t = this.time(f);
+    var t = 0;
     var i = 0;
     var times = [];
     while (t<duration) {
@@ -19,7 +19,7 @@ BM = {
       times.push(e);
       t = (new Date().getTime()) - startTime;
     }
-    return {count:i, times:times};
+    return {count:i*(t/duration), times:times};
   }
 
 };
