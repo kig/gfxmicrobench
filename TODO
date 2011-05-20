@@ -1,0 +1,30 @@
+Benchmarks for 2D canvas drawImage variations
+  + pixel-aligned
+  + transformed
+  + with different image sources
+    http://jsperf.com/canvas-drawimage
+  + different composite ops
+  + different ways to do spritesheets (cache to individual canvases 
+    vs cropping on the fly)
+    http://jsperf.com/canvas-spritesheets
+
+Benchmarks for WebGL texture upload
+  - different image sources (img, video, canvas, arraybuffer)
+  - different pixelstorei params
+
+Benchmarks for 2D canvas path creation
+  + create complex small path, fill
+    http://jsperf.com/canvas-path
+
+Benchmarks for 2D canvas text draw
+  + filled text & stroked text
+    http://jsperf.com/canvas-filltext-stroketext
+  + different font sizes
+    http://jsperf.com/canvas-fontsizes
+
+Benchmarks for different ways to do blitting
+  + fillRect with 1px rects
+  + putImageData
+  http://jsperf.com/canvas-blitting
+  http://jsperf.com/canvas-blitting-full
+  - work in typed array, upload as texture to webgl
