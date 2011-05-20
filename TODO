@@ -9,8 +9,9 @@ Benchmarks for 2D canvas drawImage variations
     http://jsperf.com/canvas-spritesheets
 
 Benchmarks for WebGL texture upload
-  - different image sources (img, video, canvas, arraybuffer)
-  - different pixelstorei params
+  + different image sources (img, video, canvas, arraybuffer)
+  + different pixelstorei params
+    http://jsperf.com/texture-sources
 
 Benchmarks for 2D canvas path creation
   + create complex small path, fill
@@ -23,8 +24,6 @@ Benchmarks for 2D canvas text draw
     http://jsperf.com/canvas-fontsizes
 
 Benchmarks for different ways to do blitting
-  + fillRect with 1px rects
-  + putImageData
-  http://jsperf.com/canvas-blitting
-  http://jsperf.com/canvas-blitting-full
-  - work in typed array, upload as texture to webgl
+  + fillRect with 1px rects & putImageData
+    http://jsperf.com/canvas-blitting
+    http://jsperf.com/canvas-blitting-full
